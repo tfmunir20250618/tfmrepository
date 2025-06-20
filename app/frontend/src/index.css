@@ -54,3 +54,25 @@ body {
         font-size: 16px; /* Standard size for desktops */
     }
 }
+
+:root {
+    --primary-color: #1e40af;
+    --secondary-color: #059669;
+    --accent-color: #dc2626;
+    --background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+.header {
+    background: linear-gradient(135deg, #1e40af 0%, #3730a3 100%);
+    color: white;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 1200px;
+}

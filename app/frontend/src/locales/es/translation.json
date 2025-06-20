@@ -1,17 +1,17 @@
 {
-    "pageTitle": "Azure OpenAI + AI Search",
-    "headerTitle": "Azure OpenAI + AI Search",
-    "chat": "Chat",
-    "qa": "Haz una pregunta",
+    "pageTitle": "Asistente Digital - Constitución Empresarial",
+    "headerTitle": "🏢 Asistente Digital - Constitución Empresarial",
+    "chat": "Consultas Legales",
+    "qa": "Documentación Legal",
     "login": "Iniciar sesión",
     "logout": "Cerrar sesión",
     "clearChat": "Borrar chat",
     "history": {
-        "chatHistory": "Historial de chat",
-        "openChatHistory": "Abrir historial de chat",
-        "noHistory": "No hay historial de chat",
-        "deleteModalTitle": "Eliminar historial de chat",
-        "deleteModalDescription": "Esta acción no se puede deshacer. ¿Eliminar este historial de chat?",
+        "chatHistory": "Historial de consultas",
+        "openChatHistory": "Abrir historial de consultas",
+        "noHistory": "No hay historial de consultas",
+        "deleteModalTitle": "Eliminar historial de consultas",
+        "deleteModalDescription": "Esta acción no se puede deshacer. ¿Eliminar este historial de consultas?",
         "deleteLabel": "Eliminar",
         "cancelLabel": "Cancelar",
         "today": "Hoy",
@@ -20,46 +20,51 @@
         "last30days": "Últimos 30 días"
     },
     "upload": {
-        "fileLabel": "Subir archivo:",
-        "uploadedFilesLabel": "Archivos subidos previamente:",
-        "noFilesUploaded": "No se han subido archivos todavía",
-        "loading": "Cargando...",
-        "manageFileUploads": "Administrar subidas de archivos",
-        "uploadingFiles": "Subiendo archivos...",
-        "uploadedFileError": "Error al subir el archivo - por favor, inténtalo de nuevo o contacta con el administrador.",
-        "deleteFile": "Eliminar archivo",
-        "deletingFile": "Eliminando archivo...",
+        "fileLabel": "Subir documento legal:",
+        "uploadedFilesLabel": "Documentos legales subidos:",
+        "noFilesUploaded": "No se han subido documentos todavía",
+        "loading": "Procesando documentación legal...",
+        "manageFileUploads": "Administrar documentos legales",
+        "uploadingFiles": "Subiendo documentos legales...",
+        "uploadedFileError": "Error al subir el documento legal - por favor, inténtalo de nuevo o contacta con el administrador.",
+        "deleteFile": "Eliminar documento",
+        "deletingFile": "Eliminando documento...",
         "errorDeleting": "Error eliminando.",
-        "fileDeleted": "Archivo eliminado"
+        "fileDeleted": "Documento eliminado"
     },
     "developerSettings": "Configuración del desarrollador",
 
-    "chatEmptyStateTitle": "Chatea con tus datos",
-    "chatEmptyStateSubtitle": "Pregunta cualquier cosa o prueba un ejemplo",
+    "chatEmptyStateTitle": "Consulta sobre constitución empresarial",
+    "chatEmptyStateSubtitle": "Pregunta sobre procedimientos legales o prueba un ejemplo",
     "defaultExamples": {
-        "1": "¿Qué está incluido en mi plan Northwind Health Plus que no está en el estándar?",
-        "2": "¿Qué sucede en una revisión de rendimiento?",
-        "3": "¿Qué hace un Gerente de producto?",
-        "placeholder": "Escribe una nueva pregunta (por ejemplo, ¿mi plan cubre exámenes anuales de la vista?)"
+        "1": "¿Cómo constituir una S.A.C. en Lima?",
+        "2": "¿Qué documentos necesito para inscribir mi empresa en SUNARP?",
+        "3": "¿Cuál es la diferencia entre S.R.L. y S.A.C.?",
+        "4": "¿Cuánto cuesta el proceso completo de constitución?",
+        "5": "¿Cómo redactar el objeto social para una empresa de software?",
+        "6": "¿Qué trámites debo hacer en SUNAT después de constituir?",
+        "7": "¿Necesito notario para constituir una E.I.R.L.?",
+        "8": "¿Cuáles son los requisitos para obtener licencia municipal?",
+        "placeholder": "Escribe tu consulta legal (ej: ¿Cómo constituir una empresa de servicios en Arequipa?)"
     },
-    "askTitle": "Pregunta a tus datos",
+    "askTitle": "Pregunta sobre constitución empresarial",
     "gpt4vExamples": {
-        "1": "Compara el impacto de las tasas de interés y el PIB en los mercados financieros.",
-        "2": "¿Cuál es la tendencia esperada para el índice S&P 500 en los próximos cinco años? Compáralo con el rendimiento pasado del S&P 500",
-        "3": "¿Puedes identificar alguna correlación entre los precios del petróleo y las tendencias del mercado de valores?",
-        "placeholder": "Ejemplo: ¿Mi plan cubre exámenes anuales de la vista?"
+        "1": "Analiza este formato de minuta de constitución y explícame los campos obligatorios",
+        "2": "¿Qué información debe incluir esta escritura pública de constitución?",
+        "3": "Revisa si este documento de SUNARP cumple con todos los requisitos legales",
+        "placeholder": "Sube un documento legal y pregunta sobre su contenido"
     },
-    "generatingAnswer": "Generando respuesta",
-    "citationWithColon": "Cita:",
-    "followupQuestions": "Preguntas de seguimiento:",
+    "generatingAnswer": "Consultando documentación legal...",
+    "citationWithColon": "Fuente legal:",
+    "followupQuestions": "Consultas relacionadas:",
 
     "tooltips": {
-        "submitQuestion": "Enviar pregunta",
-        "askWithVoice": "Realizar pregunta con voz",
-        "stopRecording": "Detener la grabación de la pregunta",
-        "showThoughtProcess": "Mostrar proceso de pensamiento",
-        "showSupportingContent": "Mostrar contenido de soporte",
-        "speakAnswer": "Hablar respuesta",
+        "submitQuestion": "Enviar consulta legal",
+        "askWithVoice": "Realizar consulta por voz",
+        "stopRecording": "Detener grabación",
+        "showThoughtProcess": "Mostrar análisis legal",
+        "showSupportingContent": "Mostrar documentación de respaldo",
+        "speakAnswer": "Escuchar respuesta",
         "info": "Información",
         "save": "Guardar",
         "copy": "Copiar",
@@ -67,104 +72,104 @@
     },
 
     "headerTexts":{
-        "thoughtProcess": "Proceso de Pensamiento",
-        "supportingContent": "Contenido de apoyo",
-        "citation": "Cita"
+        "thoughtProcess": "Análisis Legal",
+        "supportingContent": "Documentación Oficial",
+        "citation": "Fuente Legal"
     },
 
     "labels": {
         "toggleMenu": "Alternar menú",
         "languagePicker": "Seleccione su idioma",
-        "headerText": "Configurar la generación de respuestas",
+        "headerText": "Configurar la generación de respuestas legales",
         "closeButton": "Cerrar",
-        "promptTemplate": "Sobrescribir plantilla de aviso",
-        "temperature": "Temperatura",
-        "seed": "Seed",
-        "minimumSearchScore": "Puntaje mínimo de búsqueda",
-        "minimumRerankerScore": "Puntaje mínimo de re-clasificación",
-        "retrieveCount": "Obtén éste número de resultados de la búsqueda:",
-        "includeCategory": "Incluir categoría",
+        "promptTemplate": "Sobrescribir plantilla de consulta legal",
+        "temperature": "Precisión de respuesta",
+        "seed": "Semilla",
+        "minimumSearchScore": "Puntaje mínimo de búsqueda en documentos legales",
+        "minimumRerankerScore": "Puntaje mínimo de relevancia legal",
+        "retrieveCount": "Número de documentos legales a consultar:",
+        "includeCategory": "Incluir tipo de documento",
         "includeCategoryOptions": {
-            "all": "Todas"
+            "all": "Todos los documentos legales"
         },
-        "excludeCategory": "Excluir categoría",
-        "useSemanticRanker": "Usar clasificador semántico para la recuperación",
-        "useSemanticCaptions": "Usar subtítulos semánticos",
-        "useQueryRewriting": "Utiliza la reescritura de consultas para la recuperación",
-        "reasoningEffort": "Esfuerzo de razonamiento",
+        "excludeCategory": "Excluir tipo de documento",
+        "useSemanticRanker": "Usar clasificador semántico para documentos legales",
+        "useSemanticCaptions": "Usar extractos semánticos de normativa",
+        "useQueryRewriting": "Reescribir consultas para mejor búsqueda legal",
+        "reasoningEffort": "Nivel de análisis legal",
         "reasoningEffortOptions": {
-            "low": "Bajo",
-            "medium": "Medio",
-            "high": "Alto"
+            "low": "Básico",
+            "medium": "Intermedio",
+            "high": "Avanzado"
         },
-        "useSuggestFollowupQuestions": "Sugerir preguntas de seguimiento",
-        "useAgenticRetrieval": "Usar la recuperación agéntica",
-        "useGPT4V": "Usar modelo de visión GPT",
+        "useSuggestFollowupQuestions": "Sugerir consultas legales relacionadas",
+        "useAgenticRetrieval": "Usar recuperación inteligente de documentos",
+        "useGPT4V": "Analizar documentos visuales (PDFs, imágenes)",
         "gpt4VInput": {
-            "label": "Entradas del modelo de visión GPT",
+            "label": "Tipos de documentos a analizar",
             "options": {
-                "textAndImages": "Imágenes y texto",
-                "images": "Imágenes",
-                "texts": "Texto"
+                "textAndImages": "Documentos y texto",
+                "images": "Solo documentos escaneados",
+                "texts": "Solo texto"
             }
         },
         "retrievalMode": {
-            "label": "Modo de recuperación",
+            "label": "Modo de búsqueda en documentación legal",
             "options": {
-                "hybrid": "Vectores + Texto (Híbrido)",
-                "vectors": "Vectores",
-                "texts": "Texto"
+                "hybrid": "Búsqueda inteligente (Recomendado)",
+                "vectors": "Búsqueda semántica",
+                "texts": "Búsqueda textual"
             }
         },
         "vector": {
-            "label": "Campos de vector (Búsqueda de vector de múltiples consultas)",
+            "label": "Campos de documentos legales a buscar",
             "options": {
-                "embedding": "Incrustaciones de texto",
-                "imageEmbedding": "Incrustaciones de imagen",
-                "both": "Incrustaciones de texto e imagen"
+                "embedding": "Contenido textual",
+                "imageEmbedding": "Documentos escaneados",
+                "both": "Texto y documentos escaneados"
             }
         },
         "useOidSecurityFilter": "Usar filtro de seguridad oid",
-        "useGroupsSecurityFilter": "Usar filtro de seguridad degrupos",
-        "shouldStream": "Transmitir respuestas de finalización de chat en tiempo real"
+        "useGroupsSecurityFilter": "Usar filtro de seguridad de grupos",
+        "shouldStream": "Mostrar respuestas legales en tiempo real"
     },
 
     "helpTexts": {
         "promptTemplate":
-            "Sobrescribe el aviso utilizado para generar la respuesta basada en la pregunta y los resultados de la búsqueda. Para agregar al aviso existente en lugar de reemplazar todo el aviso, comienza tu aviso con '>>>'.",
+            "Personaliza las instrucciones para generar respuestas sobre constitución empresarial. Para agregar instrucciones adicionales, comienza con '>>>'.",
         "temperature":
-            "Establece la temperatura de la solicitud al LLM que genera la respuesta. Temperaturas más altas dan como resultado respuestas más creativas, pero pueden ser menos realistas.",
+            "Controla la precisión de las respuestas legales. Valores más bajos = respuestas más precisas y conservadoras. Valores más altos = respuestas más creativas pero menos precisas.",
         "seed":
-            "Define un número entero para mejorar la reproducibilidad de las respuestas del modelo. El número de semilla se utiliza para generar respuestas más consistentes. El número de semilla puede ser cualquier número.",
+            "Número para generar respuestas consistentes sobre temas legales. Útil para obtener respuestas similares a consultas repetidas.",
         "searchScore":
-            "Establece una puntuación mínima para los resultados de búsqueda que vuelven de Azure AI search. El rango de puntuaciones depende de si estás utilizando híbrido (predeterminado), solo vectores o solo texto.",
+            "Puntuación mínima para incluir documentos legales en los resultados. Valores más altos = solo documentos muy relevantes.",
         "rerankerScore":
-            "Establece una puntuación mínima para los resultados de búsqueda que vuelven del re-clasificador semántico. La puntuación siempre varía entre 0-4. Cuanto mayor es la puntuación, más relevante es semánticamente el resultado a la pregunta.",
+            "Puntuación mínima de relevancia legal (0-4). Valores más altos = solo documentos extremadamente relevantes a la consulta legal.",
         "retrieveNumber":
-            "Establece el número de resultados de búsqueda para recuperar de Azure AI search. Más resultados pueden aumentar la probabilidad de encontrar la respuesta correcta, pero pueden provocar que el modelo se 'pierda en el medio'.",
+            "Número de documentos legales a consultar. Más documentos = respuestas más completas, pero pueden ser menos precisas.",
         "includeCategory":
-            "Especifica una categoría para incluir en los resultados de la búsqueda. No se utilizan categorías en el conjunto de datos predeterminado.",
+            "Tipo específico de documento legal a incluir (ej: Leyes, Reglamentos, Guías SUNARP).",
         "excludeCategory":
-            "Especifica una categoría para excluir de los resultados de búsqueda. No se utilizan categorías en el conjunto de datos predeterminado.",
+            "Tipo de documento legal a excluir de la búsqueda.",
         "useSemanticReranker":
-            "Habilita el re-clasificador semántico de Azure AI Search, un modelo que re-clasifica los resultados de búsqueda basándose en la similitud semántica con la consulta del usuario.",
+            "Mejora la relevancia de documentos legales basándose en el significado de la consulta, no solo palabras clave.",
         "useSemanticCaptions":
-            "Envía subtítulos semánticos al LLM en lugar del resultado de búsqueda completo. Un subtítulo semántico se extrae de un resultado de búsqueda durante el proceso de clasificación semántica.",
+            "Envía extractos relevantes de documentos legales en lugar del documento completo.",
         "useQueryRewriting":
-            "Habilita la reescritura de consultas de Azure AI Search, un proceso que modifica la consulta del usuario para mejorar los resultados de búsqueda. Requiere que el clasificador semántico esté habilitado.",
+            "Mejora automáticamente las consultas legales para obtener mejores resultados de la documentación.",
         "reasoningEffort":
-            "Establece el esfuerzo de razonamiento para el LLM. Los valores más altos resultan en más razonamiento, pero pueden tardar más en generar una respuesta. El valor predeterminado es medio.",
-        "suggestFollowupQuestions": "Pide al LLM que sugiera preguntas de seguimiento basándose en la consulta del usuario.",
-        "useGPT4Vision": "Utiliza GPT-4-Turbo con Visión para generar respuestas basándose en imágenes y texto del índice.",
+            "Nivel de análisis legal aplicado. Valores más altos = análisis más profundo pero respuestas más lentas.",
+        "suggestFollowupQuestions": "Sugiere consultas legales relacionadas basadas en la pregunta inicial.",
+        "useGPT4Vision": "Permite analizar documentos legales escaneados, imágenes de formularios, etc.",
         "vectorFields":
-            "Especifica qué campos de incrustación en el índice de búsqueda de Azure AI se buscarán, tanto las incrustaciones de 'Imágenes y texto', solo 'Imagenes', o solo 'Texto'.",
+            "Especifica si buscar en contenido textual, documentos escaneados, o ambos tipos de documentación legal.",
         "gpt4VisionInputs":
-            "Establece lo que se enviará al modelo de visión. 'Imágenes y texto' envía tanto imágenes como texto al modelo, 'Imágenes' solo envía imágenes y 'Texto' solo envía texto.",
+            "Define qué enviar al analizador de documentos: texto y documentos, solo documentos, o solo texto.",
         "retrievalMode":
-            "Establece el modo de recuperación para la consulta de búsqueda de Azure AI. Vectores + Texto (Híbrido) utiliza una combinación de búsqueda vectorial y búsqueda de texto completo, Vectores utiliza solo la búsqueda vectorial y Texto utiliza solo la búsqueda de texto completo. Generalmente, el modo híbrido es óptimo.",
-        "streamChat": "Transmite continuamente la respuesta a la interfaz de usuario del chat mientras se genera.",
-        "useOidSecurityFilter": "Filtra los resultados de búsqueda en función del OID del usuario autenticado.",
-        "useGroupsSecurityFilter": "Filtra los resultados de búsqueda en función de los grupos del usuario autenticado.",
-        "useAgenticRetrieval": "Use agentic retrieval from Azure AI Search for multi-query planning. Always uses semantic ranker."
+            "Método de búsqueda en documentación legal. 'Inteligente' combina búsqueda semántica y textual (recomendado).",
+        "streamChat": "Muestra las respuestas legales mientras se generan, en tiempo real.",
+        "useOidSecurityFilter": "Filtra documentos según el usuario autenticado.",
+        "useGroupsSecurityFilter": "Filtra documentos según los grupos del usuario.",
+        "useAgenticRetrieval": "Usa recuperación inteligente para consultas complejas que requieren múltiples documentos legales."
     }
 }

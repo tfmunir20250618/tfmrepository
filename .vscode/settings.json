@@ -30,5 +30,7 @@
         "tests"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/d9d341ae-dda0-44d8-845b-0585e3d47b4e/resourceGroups/rg-tfmenvironment/providers/Microsoft.Web/sites/app-backend-kbgtndh5s74lm",
+    "appService.deploySubpath": "app\\backend\\static"
 }

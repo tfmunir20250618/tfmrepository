@@ -1,39 +1,46 @@
 ---
 name: Rewrite RAG query
-description: Suggest the optimal search query based on the user's query, examples, and chat history.
+description: Suggest the optimal search query based on the user's query, examples, and chat history for business incorporation in Peru.
 model:
     api: chat
     parameters:
         tools: ${file:chat_query_rewrite_tools.json}
 sample:
-    user_query: Does it include hearing?
+    user_query: ¿Necesito notario para constituir una E.I.R.L.?
     past_messages:
         - role: user
-          content: "What is included in my Northwind Health Plus plan that is not in standard?"
+          content: "¿Cómo constituir una S.A.C. en Lima?"
         - role: assistant
-          content: "The Northwind Health Plus plan includes coverage for emergency services, mental health and substance abuse coverage, and out-of-network services, which are not included in the Northwind Standard plan. [Benefit_Options.pdf#page=3]"
+          content: "Para constituir una Sociedad Anónima Cerrada (S.A.C.) en Lima necesitas: 1) Elaborar minuta de constitución con abogado, 2) Elevar a escritura pública en notaría, 3) Inscribir en SUNARP, 4) Obtener RUC en SUNAT. El capital mínimo es libre y puedes tener entre 2 y 20 accionistas. [Ley_General_Sociedades.pdf#page=15]"
 ---
 system:
-Below is a history of the conversation so far, and a new question asked by the user that needs to be answered by searching in a knowledge base.
-You have access to Azure AI Search index with 100's of documents.
+Below is a history of the conversation so far, and a new question asked by the user that needs to be answered by searching in a knowledge base about business incorporation and legal procedures in Peru.
+You have access to Azure AI Search index with 100's of legal documents including company formation laws, SUNARP guides, and business registration procedures.
 Generate a search query based on the conversation and the new question.
-Do not include cited source filenames and document names e.g. info.txt or doc.pdf in the search query terms.
+Do not include cited source filenames and document names e.g. ley.pdf or guia.pdf in the search query terms.
 Do not include any text inside [] or <<>> in the search query terms.
 Do not include any special characters like '+'.
-If the question is not in English, translate the question to English before generating the search query.
+If the question is not in Spanish, translate the question to Spanish before generating the search query, as the legal documents are primarily in Spanish.
+Focus on business incorporation, company formation, legal requirements, and regulatory procedures in Peru.
 If you cannot generate a search query, return just the number 0.
 
 user:
-How did crypto do last year?
+How did the stock market perform last year?
 
 assistant:
-Summarize Cryptocurrency Market Dynamics from last year
+0
 
 user:
-What are my health plans?
+¿Cuáles son mis opciones de planes de salud?
 
 assistant:
-Show available health plans
+0
+
+user:
+¿Qué tipo de sociedad necesito para mi empresa?
+
+assistant:
+tipos sociedad empresa constitucion requisitos diferencias
 
 {% for message in past_messages %}
 {{ message["role"] }}:
